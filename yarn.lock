@@ -4466,7 +4466,7 @@ __metadata:
     "@types/ldapjs": "npm:^2.2.4"
     "@types/node": "npm:^20.5.9"
     "@types/supertest": "npm:^6.0.2"
-    keyv: "npm:^4.3.3"
+    keyv: "npm:^5.2.3"
     ldap-authentication: "npm:^3.2.2"
     ldap-escape: "npm:^2.0.6"
     ldapjs: "npm:^3.0.7"
@@ -4907,6 +4907,15 @@ __metadata:
   dependencies:
     ioredis: "npm:^5.4.1"
   checksum: 10/7243abf11ab698b3f97f0c86bd56f1ec79a26b0e422b23c026d8dd2ad9f629852eaf683354c863508d142b934c73b985cd01f62583b07dfcd2b6842b52b853c3
+  languageName: node
+  linkType: hard
+
+"@keyv/serialize@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "@keyv/serialize@npm:1.0.2"
+  dependencies:
+    buffer: "npm:^6.0.3"
+  checksum: 10/6a42a5778a6b4542f6903ba7e6a17c5bd116441798d75c95fba9908c76c7606db527fad710b5c54abc6175e49b1bbaaafe3b836ad4b91e1af701394134f1d504
   languageName: node
   linkType: hard
 
@@ -17891,12 +17900,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"keyv@npm:*, keyv@npm:^4.3.3, keyv@npm:^4.5.2, keyv@npm:^4.5.3":
+"keyv@npm:*, keyv@npm:^4.5.2, keyv@npm:^4.5.3":
   version: 4.5.4
   resolution: "keyv@npm:4.5.4"
   dependencies:
     json-buffer: "npm:3.0.1"
   checksum: 10/167eb6ef64cc84b6fa0780ee50c9de456b422a1e18802209234f7c2cf7eae648c7741f32e50d7e24ccb22b24c13154070b01563d642755b156c357431a191e75
+  languageName: node
+  linkType: hard
+
+"keyv@npm:^5.2.3":
+  version: 5.2.3
+  resolution: "keyv@npm:5.2.3"
+  dependencies:
+    "@keyv/serialize": "npm:^1.0.2"
+  checksum: 10/47b4e9deb33e6a80e5ea79f3022ed3a14bc9fe553b7527ffff0a70b10c7a6c1a5d7e49b9bcfdbd8e8b9fb4632d68baa19d09e82628bcf853103e750e56d49a9e
   languageName: node
   linkType: hard
 
