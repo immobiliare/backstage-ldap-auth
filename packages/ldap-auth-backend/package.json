@@ -34,7 +34,7 @@
         "@backstage/core-plugin-api": "^1.9.3",
         "@backstage/errors": "^1.2.4",
         "@backstage/plugin-auth-backend": "^0.22.9",
-        "@backstage/plugin-auth-node": "^0.4.17",
+        "@backstage/plugin-auth-node": "^0.5.6",
         "keyv": "^4.3.3",
         "ldap-authentication": "^3.2.2",
         "ldap-escape": "^2.0.6",
